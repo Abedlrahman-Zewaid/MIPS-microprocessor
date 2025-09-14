@@ -8,29 +8,29 @@ In this design, each instruction (fetch, decode, execute, memory access, and wri
 
 ### Features
 
-Fully functional MIPS single-cycle processor
+Fully functional MIPS single-cycle processor.
 
-Supports arithmetic, logic, memory, and branch/jump instructions
+Supports arithmetic, logic, memory, and branch/jump instructions.
 
-Implements datapath + control unit architecture
+Implements datapath + control unit architecture.
 
 Includes standard MIPS modules:
 
-ALU
+- ALU
 
-Program Counter (PC)
+- Program Counter (PC)
 
-Instruction Memory
+- Instruction Memory
 
-Register File
+- Register File
 
-Data Memory
+- Data Memory
 
-Control Unit (main decoder + ALU decoder)
+- Control Unit (main decoder + ALU decoder)
 
-Supporting blocks (sign extend, shift, adders, multiplexers)
+- Supporting blocks (sign extend, shift, adders, multiplexers)
 
-Runs test programs such as Factorial and Greatest Common Divisor (GCD)
+- Runs test programs such as Factorial and Greatest Common Divisor (GCD)
 
 ### Architecture
 
